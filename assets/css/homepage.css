@@ -2,37 +2,10 @@ svg{
   overflow:visible;
   fill: transparent;
   stroke: transparent;
-}
-/*#a, #b, #c, #d, #e, #f{
-  stroke:#C09E56;
-  stroke-width: 0.5px;
-  
+  color:white;
+  stroke-width: 0;
 }
 
-#a { 
-  stroke-dasharray: 0px; stroke-dashoffset: 0px;
-}
-
-#b { 
-  stroke-dasharray: 0px; stroke-dashoffset: 0px;
-}
-
-#c { 
-  stroke-dasharray: 0px; stroke-dashoffset: 0px;
-}
-
-#d { 
-  stroke-dasharray: 0px; stroke-dashoffset: 0px;
-}
-
-#e { 
-  stroke-dasharray: 0px; stroke-dashoffset: 0px;
-}
-
-#f { 
-  stroke-dasharray: 0px; stroke-dashoffset: 0px;
-}
-*/
 path {
   stroke: #C09E56;
   stroke-width: 0.5;
