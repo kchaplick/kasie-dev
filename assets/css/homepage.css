@@ -29,7 +29,7 @@ nav ul a{
   font-size:1rem;
   font-family: 'Open Sans', sans-serif;
   text-decoration:none;
-  color: #555;
+  color: #666;
   display: block;
   
 }
@@ -44,7 +44,7 @@ nav ul a:hover {
 .sidenav li>a{
   display:block;
   text-decoration:none;
-  color: #555;
+  color: #666;
 
 }
 
@@ -96,13 +96,13 @@ path {
 
 #description{
   font-family: 'Open Sans', sans-serif;
-  color: #555;
+  color: #666;
   margin-top: 5px;
 }
 
 #social{
   font-size: 2rem;
-  color:#555;
+  color:#666;
   text-align: center;
 }
 
