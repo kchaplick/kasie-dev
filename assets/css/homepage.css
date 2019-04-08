@@ -17,9 +17,16 @@
 nav{
   background-color: black;
   text-align: right;
+  line-height: 1.5rem;
+}
+
+#navLinks{
+  display: flex;
+  flex-direction: column;
 }
 
 nav ul a{
+  font-size:1rem;
   font-family: 'Open Sans', sans-serif;
   text-decoration:none;
   color: #555;
@@ -35,6 +42,7 @@ nav ul a:hover {
 }
 
 .sidenav li>a{
+  display:block;
   text-decoration:none;
   color: #555;
 
@@ -96,4 +104,8 @@ path {
   font-size: 2rem;
   color:#555;
   text-align: center;
+}
+
+.icon{
+  margin-right:10px;
 }
