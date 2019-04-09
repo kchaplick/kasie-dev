@@ -1,17 +1,10 @@
-.body{
-  min-height: 100vh;
+body{
+  background-color: black;
 }
 
 #mainContainer{
-  width:100%;
   background-color: black;
-  margin:0;
-  max-width:none;
-  
   align-items: center;
-  min-height: 100vh;
-  
-
 }
 
 nav{
@@ -45,6 +38,14 @@ nav ul a:hover {
   display:block;
   text-decoration:none;
   color: #666;
+
+}
+
+#homepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -91,6 +92,7 @@ path {
   color: antiquewhite;
   font-size:2rem;
   margin-bottom: 0;
+  margin-top: 10px;
 
 }
 
@@ -108,4 +110,19 @@ path {
 
 .icon{
   margin-right:10px;
+}
+
+#arrowContainer{
+  display:flex;
+}
+
+#arrow{
+  margin: auto;
+  color:#C09E56;
+}
+
+.portfolioCard:hover{
+  opacity: 0.3;
+	/* filter: alpha(opacity=30); */
+
 }

@@ -5,7 +5,8 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <link rel="stylesheet" href="assets/css/homepage.css">
 
@@ -13,7 +14,16 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  
+
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon_package_v0.16/site.webmanifest">
+  <link rel="mask-icon" href="assets/images/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,71 +31,150 @@
 </head>
 
 <body>
-  
+
   <header>
-      <nav>
-          <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons grey-text darken-1">menu</i></a>
-            <ul id="navLinks" class="right hide-on-med-and-down">
-              <li><a href="#">about</a></li>
-              <li><a href="#">work</a></li>
-              <li><a href="#">contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      
-        <ul class="sidenav" id="mobile-demo">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+            class="material-icons grey-text darken-1">menu</i></a>
+        <ul id="navLinks" class="right hide-on-med-and-down">
           <li><a href="#">about</a></li>
           <li><a href="#">work</a></li>
           <li><a href="#">contact</a></li>
         </ul>
-  <div id="mainContainer" class="container">
-  <div class="row ">
-    <div id="logoContainer" class="col s12">
-      <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
-        <defs>
-         <style>
-            .st0 {
-              fill: #c09e56
-            }
-          </style>
-          <g id="lines">
-           <path id="a" class="st0" fill="#c09e56" d="M13.45 14.21l.1 15.79 1-.01-.1-16.29z" />
-           <path id="b" class="st0" fill="#c09e56" d="M16.37 12.72V27.5h1V12.21z" />
-           <path id="c" class="st0" fill="#c09e56" d="M13.53 29.75l.02 1.12.11.13L36.5 11.79v-1.35z" />
-           <path id="d" class="st0" fill="#c09e56" d="M13.6 33.68l.02 1.27.04.05L36.5 15.56V14.2z" />
-            <path id="e" class="st0" fill="#c09e56" d="M21.18 23.68l-.6.8L36.5 36.5v-1.25z" />
-            <path id="f" class="st0" fill="#c09e56" d="M21.59 27l-.59.8 15.5 12.12v-1.27z" />
-          </g>
-       </defs>
-        <use xlink:href="#lines" fill-opacity="0" stroke="#c09e56" />
-      </svg>
-      
-    </div>
-  </div> 
-  <div class="row ">
-    <div id="titleInfo" col s12>
-    <h1 id="name">Kasie Chaplick</h1>
-    <p id="description">Developer. Marketer. Somethiner.</p>
-  </div>
-  </div>
-  <div class="row ">
-      <div id="social" col s12>
-        <i class="fab fa-github icon"></i>
-        <i class="fab fa-linkedin icon"></i>
-        <i class="fas fa-at"></i>
       </div>
-    </div>
+    </nav>
 
-  <!--end main container-->
-  </div>
-  <!--js-->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#">about</a></li>
+      <li><a href="#">work</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
+    <div id="mainContainer" class="container">
+
+      <!--Section 1-->
+      <section id="homepage">
+        <div class="row ">
+          <div id="logoContainer" class="col s12">
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
+              <defs>
+                <style>
+                  .st0 {
+                    fill: #c09e56
+                  }
+                </style>
+                <g id="lines">
+                  <path id="a" class="st0" fill="#c09e56" d="M13.45 14.21l.1 15.79 1-.01-.1-16.29z" />
+                  <path id="b" class="st0" fill="#c09e56" d="M16.37 12.72V27.5h1V12.21z" />
+                  <path id="c" class="st0" fill="#c09e56" d="M13.53 29.75l.02 1.12.11.13L36.5 11.79v-1.35z" />
+                  <path id="d" class="st0" fill="#c09e56" d="M13.6 33.68l.02 1.27.04.05L36.5 15.56V14.2z" />
+                  <path id="e" class="st0" fill="#c09e56" d="M21.18 23.68l-.6.8L36.5 36.5v-1.25z" />
+                  <path id="f" class="st0" fill="#c09e56" d="M21.59 27l-.59.8 15.5 12.12v-1.27z" />
+                </g>
+              </defs>
+              <use xlink:href="#lines" fill-opacity="0" stroke="#c09e56" />
+            </svg>
+            
+
+          </div>
+        </div>
+
+        <div class="row ">
+          <div id="titleInfo" col s12>
+            <h1 id="name">Kasie Chaplick</h1>
+            <p id="description">Developer. Marketer. Somethiner.</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div id="social" col s12>
+            <i class="fab fa-github icon"></i>
+            <i class="fab fa-linkedin icon"></i>
+            <i class="fas fa-at"></i>
+          </div>
+        </div>
+        <div class="row ">
+          <div  id="arrowContainer" col s12>
+        <i id="arrow" class="small material-icons">arrow_downward</i>
+        </div>
+      </div>
+      </section>
+      <!--Section 2-->
+      <section>
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <div class="card portfolioCard">
+              <div class="card-image">
+                  <div class="content">
+                      <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+                        <div class="content-details fadeIn-bottom">
+                          <h3 class="content-title">This is a title</h3>
+                          <p class="content-text">This is a short description</p>
+                        </div>
+                      </a>
+                    </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4">
+            <div class="card portfolioCard">
+              <div class="card-image">
+                <a href="https://kchaplick.github.io/project1/"><img src="assets/images/rps.png"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l4">
+            <div class="card portfolioCard">
+              <div class="card-image">
+                <a href="https://kchaplick.github.io/project1/"><img src="assets/images/firefly.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+          <div class="col s12 m4 l4">
+            <div class="card portfolioCard">
+              <div class="card-image">
+                <a href="https://kchaplick.github.io/project1/"><img src="assets/images/doctor.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card portfolioCard">
+              <div class="card-image">
+                <a href="https://kchaplick.github.io/project1/"><img src="assets/images/crystal.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card portfolioCard">
+              <div class="card-image">
+                <a href="https://kchaplick.github.io/project1/"><img src="assets/images/comingsoon.jpg"></a>
+              </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+
+
+
+
+
+
+      <!--end main container-->
+    </div>
+    <!--js-->
     <!-- Compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      
-  
-  <script src="assets/javascript/web.js"></script>
+
+
+    <script src="assets/javascript/web.js"></script>
 </body>
 
 </html>
