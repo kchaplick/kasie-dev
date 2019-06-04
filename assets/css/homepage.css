@@ -27,12 +27,12 @@ nav ul a{
   font-size:1.2rem;
   font-family: 'Open Sans', sans-serif;
   text-decoration:none;
-  color: #666;
+  color: #ccc5b8;
   display: block;
   
 }
 nav ul a:hover { 
-  color: antiquewhite;
+  color: white;
 }
 
 .sidenav{
@@ -93,8 +93,9 @@ path {
 }
 
 #name{
-  font-family: 'Open Sans', sans-serif;
-  color: antiquewhite;
+  font-family: 'Raleway', sans-serif;
+
+  color: white;
   font-size:3rem;
   margin-bottom: 0;
   margin-top: 10px;
@@ -104,21 +105,21 @@ path {
 #description{
   font-family: 'Open Sans', sans-serif;
   font-size:1.5rem;
-  color: #666;
+  color: #ccc5b8;;
   margin-top: 5px;
 }
 
 .socialLink{
   text-decoration: none;
-  color:#666;
+  color:#ccc5b8;;
 }
 
 .socialLink:hover{
-  color:antiquewhite;
+  color:white;
 }
 #social{
   font-size: 2.5rem;
-  color:#666;
+  color:#ccc5b8;;
   text-align: center;
 }
 
@@ -139,8 +140,9 @@ path {
 
 
 #worksTitle{
-  font-family: 'Open Sans', sans-serif;
-  color: antiquewhite;
+  font-family: 'Raleway', sans-serif;
+
+  color: white;
   font-size:3rem;
   margin-top:0;
 }
@@ -221,8 +223,8 @@ path {
 }
 
 #aboutTitle{
-  font-family: 'Open Sans', sans-serif;
-  color: antiquewhite;
+  font-family: 'Raleway', sans-serif;
+  color: white;
   font-size:3rem;
   margin-top: 0;
 }
@@ -230,7 +232,7 @@ path {
 #aboutMeText{
   font-family: 'Open Sans', sans-serif;
   font-size:1.5rem;
-  color: #666;
+  color: #ccc5b8;;
   margin-top: 5px;
 }
 
