@@ -2,6 +2,13 @@
   box-sizing: inherit;
 }
 
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 body{
   background-color: black;
 }
@@ -29,9 +36,8 @@ nav ul a{
   text-decoration:none;
   color: #ccc5b8;
   display: block;
-  
 }
-nav ul a:hover { 
+nav ul a:hover {
   color: white;
 }
 
@@ -76,7 +82,6 @@ path {
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
   animation: draw 7s linear forwards;
-  
 }
 
 
@@ -125,14 +130,13 @@ path {
 
 .icon{
   margin-right:10px;
-  
 }
 
-#arrowContainer{
+.arrowContainer{
   display:flex;
 }
 
-#arrow{
+.arrow{
   margin: auto;
   color:#C09E56;
   font-size: 2rem;
@@ -157,7 +161,7 @@ path {
   position: absolute;
   height: 100%;
   width: 100%;
-  left: 0; 
+  left: 0;
   top: 0;
   bottom: 0;
   right: 0;
