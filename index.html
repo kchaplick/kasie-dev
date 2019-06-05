@@ -38,9 +38,9 @@
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
             class="material-icons grey-text darken-1">menu</i></a>
         <ul id="navLinks" class="right hide-on-med-and-down">
-          <li><a href="#aboutMe">about</a></li>
-          <li><a href="#myWorks">work</a></li>
-          <li><a href="#">contact</a></li>
+          <li id="aboutNavLink"><a>about</a></li>
+          <li id="workNavLink"><a>work</a></li>
+          <li id="aboutNavLink"><a href="mailto:hello@kasie.dev?Subject=Let's%20Do%20Some%20Work">contact</a></li>
         </ul>
       </div>
     </nav>
@@ -48,7 +48,7 @@
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#aboutMe">about</a></li>
         <li><a href="#myWorks">work</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="mailto:hello@kasie.dev?Subject=Let's%20Do%20Some%20Work">contact</a></li>
     </ul>
   </header>
 
@@ -85,7 +85,7 @@
       <div class="row ">
         <div id="titleInfo" class="col s12">
           <h1 id="name">Kasie Chaplick</h1>
-          <p id="description">Developer. Marketer. Risk-Taker.</p>
+          <p id="description">Full-stack Web Developer</p>
         </div>
       </div>
       <div class="row ">
@@ -94,7 +94,7 @@
               class="fab fa-github icon"></i></a>
           <a class="socialLink" href="https://www.linkedin.com/in/kathleenchaplick/" target="_blank"><i
               class="fab fa-linkedin icon"></i></a>
-          <a class="socialLink" href="mailto:kchaplick92@gmail.com?Subject=Let's%20Work" target="_top"><i
+          <a class="socialLink" href="mailto:hello@kasie.dev?Subject=Let's%20Do%20Some%20Work" target="_top"><i
               class="fas fa-at icon"></i></a>
           <a class="socialLink" href="assets/images/K.Chaplick_Resume.pdf" target="_blank"><i
               class="fas fa-file"></i></a>
@@ -110,10 +110,26 @@
 
     <!--Section 2-->
     <section id="myWorks">
-        <h1 id="worksTitle" class="center-align">My Works</h1>
-        <div class="row flexbox">
+      <h1 id="worksTitle" class="center-align">My Works</h1>
+      <div class="row flexbox">
        <!--Row 1-->
-        <div class="col s12 m4 l4">
+       <div class="col s12 m4 l4">
+          <div class="card content">
+            <div class="content-overlay"></div>
+              <div class="card-image">
+                <img class="content-image" src="assets/images/fetchr.png" alt="Fetchr">
+                <div class="content-details fadeIn-bottom">
+                  <a href="https://penn-project2.herokuapp.com/" target="_blank">
+                    <h3 class="content-title">FETCHR</h3>
+                    <p class="content-text">Find the pawfect match</p>
+                  </a>
+                  <a class="githubLink" href="https://github.com/kchaplick/project2" target="_blank">Github</a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+       <div class="col s12 m4 l4">
           <div class="card content">
             <div class="content-overlay"></div>
               <div class="card-image">
@@ -193,83 +209,6 @@
           </div>
         </div>
 
-        <div class="col s12 m4 l4">
-          <div class="card content">
-            <div class="content-overlay"></div>
-              <div class="card-image">
-                <img class="content-image" src="assets/images/Liri.svg" alt="liri">
-                <div class="content-details fadeIn-bottom">
-                  <a href="https://github.com/kchaplick/liri-node-app" target="_blank">
-                    <h3 class="content-title">LIRI APP</h3>
-                    <p class="content-text">A CLI Node App</p>
-                  </a>
-                </div>
-              </div>
-          </div>
-        </div>
-<!--row 3-->
-        <div class="col s12 m4 l4">
-          <div class="card content">
-            <div class="content-overlay"></div>
-              <div class="card-image">
-                <img class="content-image" src="assets/images/bamazon.jpg" alt="bamazon">
-                <div class="content-details fadeIn-bottom">
-                  <a href="https://github.com/kchaplick/pseudo-store" target="_blank">
-                    <h3 class="content-title">BAMAZON APP</h3>
-                    <p class="content-text">A CLI Node App</p>
-                    </a>
-                </div>
-              </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4 l4">
-          <div class="card content">
-            <div class="content-overlay"></div>
-              <div class="card-image">
-                <img class="content-image" src="assets/images/friends.png" alt="friend finder">
-                <div class="content-details fadeIn-bottom">
-                  <a href="https://whispering-atoll-54265.herokuapp.com/" target="_blank">
-                    <h3 class="content-title">Friend Finder</h3>
-                    <p class="content-text">Make a friend app</p>
-                  </a>
-                  <a class="githubLink" href="https://github.com/kchaplick/friend-finder" target="_blank">Github</a>
-                </div>
-              </div>
-          </div>
-        </div>
-
-        <div class="col s12 m4 l4">
-          <div class="card content">
-            <div class="content-overlay"></div>
-              <div class="card-image">
-                <img class="content-image" src="assets/images/burger.png" alt="Eat da burger">
-                <div class="content-details fadeIn-bottom">
-                  <a href="https://peaceful-basin-72435.herokuapp.com/" target="_blank">
-                    <h3 class="content-title">Eat Da Burger</h3>
-                    <p class="content-text">Hungry?</p>
-                  </a>
-                  <a class="githubLink" href="https://github.com/kchaplick/eatdaburger" target="_blank">Github</a>
-                </div>
-              </div>
-          </div>
-        </div>
-<!--row 4-->
-        <div class="col s12 m4 l4">
-          <div class="card content">
-            <div class="content-overlay"></div>
-              <div class="card-image">
-                <img class="content-image" src="assets/images/fetchr.png" alt="Fetchr">
-                <div class="content-details fadeIn-bottom">
-                  <a href="https://penn-project2.herokuapp.com/" target="_blank">
-                    <h3 class="content-title">FETCHR</h3>
-                    <p class="content-text">Find the pawfect match</p>
-                  </a>
-                  <a class="githubLink" href="https://github.com/kchaplick/project2" target="_blank">Github</a>
-                </div>
-              </div>
-          </div>
-        </div>
 <!--end works row-->
       </div>
 
