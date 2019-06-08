@@ -39,21 +39,4 @@ $("#arrowToAbout").click(function (event) {
 });
 
 
-
-
-//animation for work bars
-  $(window).on('scroll', function(){
-    var skillsDiv = $('#skills');
-	  var winT = $(window).scrollTop(),
-  	winH = $(window).height(),
-  	skillsT = skillsDiv.offset().top;
-    if(winT + winH  > skillsT){
-  	  $('.skillbar').each(function(){
-        $(this).find('.skillbar-bar').animate({
-        width:$(this).attr('data-percent')
-        },3000);
-      });
-    }
-  });
-
 });
